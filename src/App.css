@@ -1,44 +1,36 @@
-body {
-  background-color: cadetblue;
-  color: #fff;
+.faq-box {
+  background-color: gray;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  color: rgb(0, 255, 234);
 }
-.heading {
-  color: #fff;
-}
-.container {
-  text-align: center;
-}
-.input input {
-  width: 60px;
-  height: 40px;
-  margin-left: 10px;
-  border: none;
-  outline: none;
-  border-radius: 4px;
-  text-align: center;
-}
-.input strong {
-  font-size: 30px;
-}
-.timer-button {
-  margin-top: 10px;
-  height: 40px;
-  width: 100px;
-  background-color: purple;
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  color: #fff;
+.faq-que {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  align-items: center;
   font-size: 20px;
 }
 
-.timer-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 100px;
+.faq-que button {
+  background: none;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  color: purple;
 }
 
-.action-button button {
-  margin-left: 10px;
+.faq-answer {
+  margin: 15px 0 5px 50px;
+  color: rgb(221, 214, 12);
+}
+.arrow {
+  transform: rotate(90deg);
 }
